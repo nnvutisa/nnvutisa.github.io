@@ -1,0 +1,13 @@
+- name: em_bayesnet
+  descr: "A python package on implementing the expectation-maximization algorithm 
+  to discrete Bayesian network with hidden variables. Bayesnet_em takes in a dataset 
+  with a hidden variable and an initialized bayesian network model and returns 
+  a complete dataset."
+  image: 
+  github: https://github.com/nnvutisa/EM_BayesNet
+
+- name: Move Tag Web App
+  descr: "A web application that uses a decision tree algorithm on a dataset of 
+  movie tags. users answer a set of questions on what types of movies 
+  they are looking for to get a movie recommendation. "
+  website: http://movietag-test.us-west-2.elasticbeanstalk.com/ 
