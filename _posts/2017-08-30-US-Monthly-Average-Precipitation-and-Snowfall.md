@@ -8,10 +8,22 @@ tags:
 link: https://nnvutisa.github.io/weather/index.html
 ---
 
-This visualization project started because I wanted location weather data as features for another analysis project. After constructing a table of monthly precipitation and snowfall level for each state, I wanted to quickly visualize the data. Then the simple visualization turned into a more complicated interactive visualization. The plots were created using Bokeh, a Python interactive visualization library. This project does not use a data server. Instead, Bokeh converts the python code into Javascript that renders the plots in the browser. Anyone interested in interactive visualization in Python might also want to check out [Dash](https://plot.ly/products/dash/) by Plotly, which came out a bit after this project. 
+[Click to see the plots on a separate page](https://nnvutisa.github.io/weather/)
 
-[Check out the visualization](https://nnvutisa.github.io/weather/)
+This is an interactive visualization of precipitation and snowfall data for the 48 mainland states. The wather data was obtained from the [NOAA](https://www.ncdc.noaa.gov/cdo-web/) 1981-2010 climate normal dataset. The plot shows the monthly average values calculated as unweighted averages of all the values from weather stations within each state. 
+
+## Rainfall
+
+{% include precip.html %}
+
+
+## Snowfall
+
+{% include snow.html %}
+
 
 You can use the slider at the bottom to change the displayed month. Hover over the states to see the values. 
+
+The plots were created using Bokeh, a Python interactive visualization library. This project does not use a data server. Instead, Bokeh converts the python code into Javascript that renders the plots in the browser. Anyone interested in interactive visualization in Python might also want to check out [Dash](https://plot.ly/products/dash/) by Plotly, which came out a bit after this project. 
 
 The code for the data and the plots are on [this Github page](https://github.com/nnvutisa/weather). The data files are also available for anyone interested. 
