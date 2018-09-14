@@ -8,7 +8,7 @@ tags:
 link: https://nnvutisa.github.io/weather/index.html
 ---
 
-####[Click to see the visualization](https://nnvutisa.github.io/weather/)
+#### [Click to see the visualization](https://nnvutisa.github.io/weather/)
 
 This is an interactive visualization of precipitation and snowfall data for the 48 mainland states. The wather data was obtained from the [NOAA](https://www.ncdc.noaa.gov/cdo-web/) 1981-2010 climate normal dataset. The plot shows the monthly average values calculated as unweighted averages of all the values from weather stations within each state. 
 
