@@ -8,13 +8,13 @@ tag:
 author: Nalin
 ---
 
-I have always been curious about movie recommendation systems. Afterall, I use many of them regularly. Most recommendation systems involve using user data in collaborative filtering or content-based filtering systems. The idea behind the collaborative filtering system is that users who have similar preferences (who like the same movies) can give good recommendations to each other. The content-based system involves assigning some types of characteristics to each movie and recommend you new movies with similar characteristics as what you have liked in the past. A lot of people are probably familiar with using these systems in some popular platforms like Netflix or Amazon.
+[Click to view the web app](http://https://movietag.herokuapp.com/)
+
+I have always been curious about movie recommendation systems. Most recommendation systems involve using user data in collaborative filtering or content-based filtering systems. The idea behind the collaborative filtering system is that users who have similar preferences (who like the same movies) can give good recommendations to each other. The content-based system involves assigning some types of characteristics to each movie and recommend you new movies with similar characteristics as what you have liked in the past. A lot of people are probably familiar with using these systems in some popular platforms like Netflix or Amazon.
 
 What I will talk about in this post is not one of these types of systems. It will not involve any user data. The recommendation systems that I just talked about are useful. They give you a list (or many lists) of movies you might like. But often when I want to find a movie to watch, I usually start by asking myself, "What am I in a mood for right now?" So I wanted to do a simple project that uses data on movie characteristics (assigned by tags), and let users answer a bunch of questions to get a movie recommendation at the end. Kind of like a game of twenty questions.
 
-[Here is the web app](http://movietag-test.us-west-2.elasticbeanstalk.com)
-
-In this post, I will briefly go through building the model from data in Python (2.7). The web application itself was built using Django and is hosted on Amazon Web Services (EC2).
+In this post, I will briefly go through building the model from data in Python (2.7). The web application itself was built using Django and is hosted on Heroku.
 
 ## The Movie Data
 

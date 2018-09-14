@@ -7,7 +7,8 @@
   github: https://github.com/nnvutisa/EM_BayesNet
 
 - name: Move Tag Web App
-  descr: "A web application that uses a decision tree algorithm on a dataset of 
-  movie tags. users answer a set of questions on what types of movies 
-  they are looking for to get a movie recommendation. "
-  website: http://movietag-test.us-west-2.elasticbeanstalk.com/ 
+  descr: "A movie recommendation web application that uses a decision tree algorithm on a dataset of 
+  movie tags. Users answer a set of questions on what types of movies 
+  they are looking for to get a movie recommendation. A content-based recommendation system then
+  provides suggestions for similar movies. The web application is built using Django and hosted on Heroku."
+  website: https://movietag.herokuapp.com
