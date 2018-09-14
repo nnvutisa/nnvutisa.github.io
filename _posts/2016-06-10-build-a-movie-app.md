@@ -8,7 +8,7 @@ tag:
 author: Nalin
 ---
 
-[Click to view the web app](http://https://movietag.herokuapp.com/)
+[Click to view the web app](https://movietag.herokuapp.com/)
 
 I have always been curious about movie recommendation systems. Most recommendation systems involve using user data in collaborative filtering or content-based filtering systems. The idea behind the collaborative filtering system is that users who have similar preferences (who like the same movies) can give good recommendations to each other. The content-based system involves assigning some types of characteristics to each movie and recommend you new movies with similar characteristics as what you have liked in the past. A lot of people are probably familiar with using these systems in some popular platforms like Netflix or Amazon.
 
